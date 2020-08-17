@@ -31,7 +31,7 @@
 #paragraph {
 
   font-size: 17px;
-  font-family: "Yatra One";
+  font-family: "Dosis";
   color: black;
   text-align: center;
 }
@@ -65,10 +65,11 @@
 }
 
 .content {
-  padding: 0 18px;
+  padding: 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #f2f2f2;
+  font-family: "Dosis";
 }
 
 .heading {
