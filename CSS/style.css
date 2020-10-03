@@ -6,7 +6,7 @@
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+ float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -101,12 +101,96 @@ width: 490px;
     animation-play-state: paused;
 
 
+/* This below section is the styling for the cards in the contact section */
 
-To put in a gif
+  * {
+  box-sizing: border-box;
+}
 
-position: absolute;
-  bottom: 10px;
-  left: 450px;
+body {
+  font-family: "Dosis";
+}
 
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
 
-     */
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.cardtext {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* This below section is the styling for the links in the contact section */
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff0066;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #ff0066;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* This below section is the styling for the buttons in the about and portfolio sections 
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+*/
