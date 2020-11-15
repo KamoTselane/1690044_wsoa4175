@@ -27,3 +27,19 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+var coll = document.getElementsByClassName("menucollapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var menucontent = this.nextElementSibling;
+    if (menucontent.style.display === "block") {
+      menucontent.style.display = "none";
+    } else {
+      menucontent.style.display = "block";
+    }
+  });
+}
+
