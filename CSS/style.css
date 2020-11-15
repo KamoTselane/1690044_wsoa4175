@@ -3,11 +3,6 @@
   padding: 0;
  }
 
-/* body{
-background-image: url(Assets/Images/bg.jpg);
-background-size: cover;
-} */
-
 
 #paragraph {
 
@@ -26,7 +21,20 @@ background-size: cover;
   padding: 20px 20px;
 }
 
+.icon {
+  max-width: 20%;
+  height: auto;
+  margin-left: auto;
 
+}
+
+.topicon {
+  max-width: 20%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .responsive {
   max-width: 100%;
@@ -41,26 +49,28 @@ background-size: cover;
 #menutext {
 
   font-size: 17px;
-  font-family: "Dosis";
+  font-family: "Press Start 2P";
   color: black;
   text-align: center;
+    background-color: transparent;
 }
 
 #menutext:hover {
 
   font-size: 17px;
-  font-family: "Dosis";
+  font-family: "Press Start 2P";
+    background-color: transparent;
   color: white;
   text-align: center;
 }
 
 .menucollapsible {
-    max-width: 10%;
+  max-width: 10%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-color: black;
+  background-color: transparent;
   color: white;
   cursor: pointer;
   padding: 10px;
@@ -69,14 +79,14 @@ background-size: cover;
   text-align: center;
   outline: none;
   font-size: 15px;
-   font-family: "Yatra One";
+   font-family: "Press Start 2P";
 }
 
 
 .active, .menucollapsible:hover {
-  background-color:  white;
+  background-color:  transparent;
   color: black;
-   font-family: "Yatra One";
+   font-family: "Press Start 2P";
    font-size: 17px;
 }
 
@@ -92,8 +102,8 @@ background-size: cover;
   padding: 10px;
   display: none;
   overflow: hidden;
-  background-color: white;
-  font-family: "Dosis";
+  background-color:  transparent;
+  font-family: "Press Start 2P";
   list-style: none;
 }
 
@@ -105,7 +115,8 @@ background-size: cover;
   text-align: center;
   padding: 14px 16px;
   font-size: 17px;
-  font-family: "Slackey";
+  font-family: "Press Start 2P";
+    background-color: transparent;
 
 }
 
