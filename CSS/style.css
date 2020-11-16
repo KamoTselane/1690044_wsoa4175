@@ -22,14 +22,14 @@
 }
 
 .icon {
-  max-width: 20%;
+  max-width: 30%;
   height: auto;
   margin-left: auto;
 
 }
 
 .topicon {
-  max-width: 20%;
+  max-width: 40%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -44,6 +44,16 @@
   margin-right: auto;
 }
 
+.welcome {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  bottom: 150px;
+  right: 50px;
+}
 /* Menu Collapsible */
 
 #menutext {
@@ -68,7 +78,6 @@
   max-width: 10%;
   height: auto;
   display: block;
-  margin-left: auto;
   margin-right: auto;
   background-color: transparent;
   color: white;
@@ -90,12 +99,19 @@
    font-size: 17px;
 }
 
+.active, .menucollapsible {
+  background-color:  transparent;
+  color: black;
+   font-family: "Press Start 2P";
+   font-size: 17px;
+}
+
 
 .menucontent {
     max-width: 10%;
   height: auto;
   display: block;
-  margin-left: auto;
+
   margin-right: auto;
   text-align: center;
    width: 10%;
