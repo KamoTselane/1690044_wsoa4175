@@ -50,7 +50,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  position: fixed;
+
   bottom: 150px;
   right: 50px;
 }
@@ -58,7 +58,7 @@
 
 #menutext {
 
-  font-size: 17px;
+  font-size: 10px;
   font-family: "Press Start 2P";
   color: black;
   text-align: center;
@@ -70,7 +70,7 @@
   font-size: 17px;
   font-family: "Press Start 2P";
     background-color: transparent;
-  color: white;
+  color: blue;
   text-align: center;
 }
 
@@ -110,7 +110,7 @@
 .menucontent {
     max-width: 10%;
   height: auto;
-  display: block;
+  display: inline;
 
   margin-right: auto;
   text-align: center;
@@ -152,7 +152,7 @@
   text-align: center;
   outline: none;
   font-size: 15px;
-   font-family: "Yatra One";
+   font-family: "Chakra Petch";
 }
 
 .bonuscollapsible {
@@ -165,20 +165,20 @@
   text-align: center;
   outline: none;
   font-size: 15px;
-   font-family: "Yatra One";
+   font-family: "Chakra Petch";
 }
 
 .active, .collapsible:hover {
   background-color:  white;
   color: black;
-   font-family: "Yatra One";
+   font-family: "Chakra Petch";
    font-size: 17px;
 }
 
 .active, .bonuscollapsible:hover {
   background-color:  white;
   color: black;
-   font-family: "Yatra One";
+   font-family: "Chakra Petch";
    font-size: 17px;
 }
 
@@ -187,7 +187,7 @@
   display: none;
   overflow: hidden;
   background-color: #f2f2f2;
-  font-family: "Dosis";
+  font-family: "Monda";
 }
 
 .heading {
