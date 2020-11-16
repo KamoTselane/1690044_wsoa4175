@@ -7,7 +7,7 @@
 #paragraph {
 
   font-size: 17px;
-  font-family: "Dosis";
+  font-family: "Monda";
   color: black;
   text-align: center;
 }
@@ -15,7 +15,7 @@
 #blurb {
 
   font-size: 17px;
-  font-family: "Dosis";
+  font-family: "Monda";
   color: black;
   text-align: center;
   padding: 20px 20px;
@@ -196,7 +196,7 @@
   text-align: center;
   padding: 14px 16px;
   font-size: 17px;
-  font-family: "Slackey";
+  font-family: "Press Start 2P";
  /* border-style: groove;
   border-color: yellow;
   /* border: 10px;
@@ -236,7 +236,7 @@
 }
 
 body {
-  font-family: "Dosis";
+  font-family: "Monda";
 }
 
 /* Float four columns side by side */
@@ -258,18 +258,18 @@ body {
 
 /* Style the counter cards */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  box-shadow: 0 px px 0 rgba(0, 0, 0, 0); 
   padding: 16px;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: transparent;
 }
 
 .cardtext {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0); 
   padding: 16px;
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: transparent;
+  color: transparent;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
@@ -284,19 +284,19 @@ body {
 /* This below section is the styling for the links in the contact section */
 
 a:link {
-  color: white;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: white;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ff0066;
+  color: blue;
   background-color: transparent;
   text-decoration: none;
 }
